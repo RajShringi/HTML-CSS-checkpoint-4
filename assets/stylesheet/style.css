@@ -163,6 +163,9 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
 }
+.text-center {
+  text-align: center;
+}
 
 /* Container */
 .container {
@@ -475,4 +478,47 @@ h5 {
 }
 .circle-active {
   background: var(--primary);
+}
+
+/* Services */
+.services {
+  background: var(--bg-color);
+}
+
+.services-article {
+  text-align: center;
+}
+.services h3 {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+.services-article p,
+.service p {
+  color: var(--text-light);
+}
+.services-section {
+  margin: 5rem 0 0 0;
+}
+.service {
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  position: relative;
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+}
+.service-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: -1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
