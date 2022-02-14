@@ -135,3 +135,122 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* My Resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button {
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General */
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+
+/* Container */
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.item-start {
+  align-items: flex-start;
+}
+.item-center {
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.column {
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  padding: 1rem 0;
+  background: #fff;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.nav-menu li {
+  margin-left: 2rem;
+}
+.nav-menu a {
+  color: var(--text-light);
+  font-weight: 500;
+}
+.nav-menu a:hover {
+  color: var(--primary);
+}
+
+.sub-menu-box {
+  position: relative;
+}
+.sub-menu {
+  position: absolute;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  width: 10rem;
+  padding: 0.5rem;
+  left: 50%;
+  top: 1.5rem;
+  transform: translateX(-50%);
+  display: none;
+}
+.sub-menu li {
+  margin: 0.5rem 0;
+}
+
+.sub-menu-box:hover .sub-menu {
+  display: inline-block;
+}
+
+.deep-menu-box {
+  position: relative;
+}
+.deep-menu {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  border-radius: 6px;
+  width: 10rem;
+  padding: 0.5rem;
+  top: -0rem;
+  left: 110%;
+  display: none;
+}
+.deep-menu-box:hover .deep-menu {
+  display: inline-block;
+}
