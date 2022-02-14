@@ -458,3 +458,21 @@ h5 {
   align-items: center;
   color: #fff;
 }
+
+/* Clients */
+.clients-circle-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.circle {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: gray;
+  margin-left: 0.5rem;
+}
+.circle-active {
+  background: var(--primary);
+}
