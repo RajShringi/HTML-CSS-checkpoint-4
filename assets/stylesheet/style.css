@@ -275,6 +275,7 @@ h5 {
   top: 1.5rem;
   transform: translateX(-50%);
   display: none;
+  background: #fff;
 }
 .sub-menu li {
   margin: 0.5rem 0;
@@ -296,6 +297,7 @@ h5 {
   top: -0rem;
   left: 110%;
   display: none;
+  background: #fff;
 }
 .deep-menu-box:hover .deep-menu {
   display: inline-block;
