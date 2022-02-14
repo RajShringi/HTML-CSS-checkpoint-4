@@ -522,3 +522,35 @@ h5 {
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* Values */
+.value-article {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.value-article img {
+  border-radius: 8px;
+}
+.value-article-info {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.value-article-info h5 {
+  color: var(--text-dark);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.value-article-info p {
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+.value-article-info a {
+  color: var(--text-dark);
+  font-size: 0.8rem;
+}
