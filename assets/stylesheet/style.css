@@ -194,20 +194,41 @@ body {
 .column {
   flex-direction: column;
 }
-.flex-30 {
-  flex: 0 1 30%;
+.flex-10 {
+  flex: 0 1 10%;
 }
 .flex-20 {
   flex: 0 1 20%;
+}
+.flex-30 {
+  flex: 0 1 30%;
+}
+.flex-48 {
+  flex: 0 1 48%;
+}
+.flex-70 {
+  flex: 0 1 70%;
+}
+.flex-80 {
+  flex: 0 1 80%;
 }
 /* Padding */
 .padding {
   padding: 5em 0;
 }
 
+.full-width {
+  width: 100%;
+  display: block;
+}
 /* Heading */
 h2 {
   font-size: 2.3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
@@ -216,7 +237,10 @@ h4 {
   font-weight: 600;
   color: #393838;
 }
-
+h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 /* Header */
 .header {
   padding: 1rem 0;
@@ -279,7 +303,7 @@ h4 {
 
 /* Hero */
 .hero {
-  height: 100vh;
+  height: 90vh;
 }
 .hero-main {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
@@ -361,4 +385,74 @@ h4 {
 .hero-other-article-icon {
   font-size: 1.5rem;
   color: var(--primary);
+}
+
+/* About */
+.about {
+  background: var(--bg-color);
+}
+.about-denote {
+  font-size: 1.3rem;
+  color: var(--text-light);
+}
+.about-heading {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+.about-text {
+  color: var(--text-light);
+}
+
+.about-info {
+  margin-top: 3.5rem;
+}
+
+.about-info-icon {
+  background: #fff;
+  border: 1px solid var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  color: var(--text-dark);
+}
+
+.about-info h5 {
+  color: var(--text-dark);
+}
+.about-info p {
+  color: var(--text-light);
+}
+.about-info-article {
+  margin-bottom: 1.5rem;
+}
+
+.about-img {
+  position: relative;
+}
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 7rem;
+  height: 7rem;
+  background: rgba(234, 84, 51, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-inner-circle {
+  background: var(--primary);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
