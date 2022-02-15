@@ -203,6 +203,9 @@ body {
 .item-center {
   align-items: center;
 }
+.self-stretch {
+  align-self: stretch;
+}
 .wrap {
   flex-wrap: wrap;
 }
@@ -262,6 +265,11 @@ h5 {
 h6 {
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+#toggle,
+.bars {
+  display: none;
 }
 /* Header */
 .header {
@@ -327,7 +335,7 @@ h6 {
 
 /* Hero */
 .hero {
-  height: 90vh;
+  min-height: 90vh;
 }
 .hero-main {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
@@ -892,7 +900,7 @@ form {
 .footer-news-letter input {
   display: block;
   width: 100%;
-  padding: 0.8rem 0;
+  padding: 0.8rem 0.8rem;
   border: 1px solid rgb(233, 141, 233);
   border-radius: 20px;
   background-color: #fff;
@@ -941,4 +949,120 @@ form {
 }
 .footer-social-links a {
   color: #fff;
+}
+
+/* Media Queries Styles */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  html {
+    font-size: 15px;
+  }
+  .container {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .md-column {
+    flex-direction: column;
+  }
+  .md-justify-start {
+    justify-content: flex-start;
+  }
+  .md-flex-100 {
+    flex: 0 1 100%;
+    margin: 2rem 0;
+  }
+  .md-flex-48 {
+    flex: 0 1 48%;
+    margin: 2rem 0;
+  }
+  .md-wrap {
+    flex-wrap: wrap;
+  }
+  .md-text-center {
+    text-align: center;
+  }
+  /* Header */
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 999;
+  }
+  .nav {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 9rem;
+    z-index: 9;
+  }
+  #toggle:checked ~ .nav {
+    display: inline-block;
+  }
+  .bars {
+    color: var(--primary);
+    font-size: 2rem;
+    display: inline-block;
+  }
+  .logo,
+  .bars {
+    position: fixed;
+    top: 1.5rem;
+    z-index: 99;
+  }
+  .logo {
+    left: 2rem;
+  }
+  .bars {
+    right: 2rem;
+  }
+  .nav-menu li {
+    margin: 16px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 540px;
+  }
+  .sm-wrap {
+    flex-wrap: wrap;
+  }
+  .sm-flex-100 {
+    flex: 0 1 100%;
+    margin: 2rem 0;
+  }
+  .sm-flex-30 {
+    flex: 0 1 30%;
+  }
+  .sm-hidden {
+    display: none;
+  }
 }

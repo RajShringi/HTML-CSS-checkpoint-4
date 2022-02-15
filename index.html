@@ -18,8 +18,12 @@
     <header class="header">
       <div class="container flex justify-between item-center">
         <a href="#" class="logo">Flexor</a>
-        <nav>
-          <ul class="nav-menu flex item-center">
+        <label class="bars" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" type="checkbox" />
+        <nav class="nav">
+          <ul class="nav-menu flex item-center md-column">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
@@ -78,8 +82,8 @@
           </div>
         </div>
         <div class="container">
-          <div class="hero-info flex item-center justify-between">
-            <article class="hero-info-highlight flex-30">
+          <div class="hero-info flex item-center justify-between md-wrap">
+            <article class="hero-info-highlight flex-30 md-flex-100">
               <h2>Why Choose Flexor for your company website?</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
@@ -95,7 +99,7 @@
               </div>
             </article>
 
-            <article class="hero-other-article flex-20">
+            <article class="hero-other-article flex-20 md-flex-100">
               <div class="hero-other-article-icon">
                 <i class="fa-solid fa-rectangle-list"></i>
               </div>
@@ -106,7 +110,7 @@
               </p>
             </article>
 
-            <article class="hero-other-article flex-20">
+            <article class="hero-other-article flex-20 md-flex-100">
               <div class="hero-other-article-icon">
                 <i class="fa-solid fa-cube"></i>
               </div>
@@ -117,7 +121,7 @@
               </p>
             </article>
 
-            <article class="hero-other-article flex-20">
+            <article class="hero-other-article flex-20 md-flex-100">
               <div class="hero-other-article-icon">
                 <i class="fa-solid fa-images"></i>
               </div>
@@ -133,8 +137,8 @@
       <!-- About -->
       <section class="about padding">
         <div class="container">
-          <div class="about-container flex item-center justify-between">
-            <div class="flex-48 about-img">
+          <div class="about-container flex item-center justify-between md-wrap">
+            <div class="flex-48 md-flex-100 about-img">
               <img
                 src="assets/media/about-img.jpg"
                 alt="about"
@@ -146,7 +150,7 @@
                 </div>
               </div>
             </div>
-            <article class="flex-48">
+            <article class="flex-48 md-flex-100">
               <p class="about-denote">About us</p>
               <h3 class="about-heading">
                 Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -218,42 +222,42 @@
       <section class="clients padding">
         <div class="container">
           <div class="clients-container flex justify-between item-center">
-            <div class="flex-10">
+            <div class="flex-10 sm-flex-30">
               <img
                 class="full-width"
                 src="assets/media/clients/client-1.png"
                 alt="client-1"
               />
             </div>
-            <div class="flex-10">
+            <div class="flex-10 sm-flex-30">
               <img
                 class="full-width"
                 src="assets/media/clients/client-2.png"
                 alt="client-2"
               />
             </div>
-            <div class="flex-10">
+            <div class="flex-10 sm-hidden">
               <img
                 class="full-width"
                 src="assets/media/clients/client-3.png"
                 alt="client-3"
               />
             </div>
-            <div class="flex-10">
+            <div class="flex-10 sm-hidden">
               <img
                 class="full-width"
                 src="assets/media/clients/client-4.png"
                 alt="client-4"
               />
             </div>
-            <div class="flex-10">
+            <div class="flex-10 sm-hidden">
               <img
                 class="full-width"
                 src="assets/media/clients/client-5.png"
                 alt="client-5"
               />
             </div>
-            <div class="flex-10">
+            <div class="flex-10 sm-hidden">
               <img
                 class="full-width"
                 src="assets/media/clients/client-6.png"
@@ -282,7 +286,7 @@
           <section
             class="services-section flex justify-between item-center wrap"
           >
-            <article class="service flex-30">
+            <article class="service flex-30 md-flex-48 sm-flex-100">
               <div class="service-icon">
                 <i class="fa-solid fa-desktop"></i>
               </div>
@@ -293,7 +297,7 @@
               </p>
             </article>
 
-            <article class="service flex-30">
+            <article class="service flex-30 md-flex-48 sm-flex-100">
               <div class="service-icon">
                 <i class="fa-solid fa-chart-bar"></i>
               </div>
@@ -304,7 +308,7 @@
               </p>
             </article>
 
-            <article class="service flex-30">
+            <article class="service flex-30 md-flex-48 sm-flex-100">
               <div class="service-icon">
                 <i class="fa-solid fa-earth-americas"></i>
               </div>
@@ -315,7 +319,7 @@
               </p>
             </article>
 
-            <article class="service flex-30">
+            <article class="service flex-30 md-flex-48 sm-flex-100">
               <div class="service-icon">
                 <i class="fa-solid fa-images"></i>
               </div>
@@ -326,7 +330,7 @@
               </p>
             </article>
 
-            <article class="service flex-30">
+            <article class="service flex-30 md-flex-48 sm-flex-100">
               <div class="service-icon">
                 <i class="fa-solid fa-sliders"></i>
               </div>
@@ -337,7 +341,7 @@
               </p>
             </article>
 
-            <article class="service flex-30">
+            <article class="service flex-30 md-flex-48 sm-flex-100">
               <div class="service-icon">
                 <i class="fa-solid fa-calendar-days"></i>
               </div>
@@ -354,7 +358,7 @@
       <section class="values padding">
         <div class="container">
           <div class="article-info flex justify-between item-center wrap">
-            <article class="value-article flex-48">
+            <article class="value-article flex-48 sm-flex-100">
               <img
                 class="full-width"
                 src="assets/media/values/values-1.jpg"
@@ -374,7 +378,7 @@
               </div>
             </article>
 
-            <article class="value-article flex-48">
+            <article class="value-article flex-48 sm-flex-100">
               <img
                 class="full-width"
                 src="assets/media/values/values-2.jpg"
@@ -394,7 +398,7 @@
               </div>
             </article>
 
-            <article class="value-article flex-48">
+            <article class="value-article flex-48 sm-flex-100">
               <img
                 class="full-width"
                 src="assets/media/values/values-3.jpg"
@@ -414,7 +418,7 @@
               </div>
             </article>
 
-            <article class="value-article flex-48">
+            <article class="value-article flex-48 sm-flex-100">
               <img
                 class="full-width"
                 src="assets/media/values/values-4.jpg"
@@ -491,7 +495,7 @@
           <section
             class="portfolio-img-container flex justify-between item-center wrap"
           >
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-1.jpg"
                 alt="portfolio-1"
@@ -499,7 +503,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-2.jpg"
                 alt="portfolio-2"
@@ -507,7 +511,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-3.jpg"
                 alt="portfolio-3"
@@ -515,7 +519,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-4.jpg"
                 alt="portfolio-4"
@@ -523,7 +527,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-5.jpg"
                 alt="portfolio-5"
@@ -531,7 +535,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-6.jpg"
                 alt="portfolio-6"
@@ -539,7 +543,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-7.jpg"
                 alt="portfolio-7"
@@ -547,7 +551,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-8.jpg"
                 alt="portfolio-8"
@@ -555,7 +559,7 @@
               />
             </div>
 
-            <div class="flex-30">
+            <div class="flex-30 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/portfolio/portfolio-9.jpg"
                 alt="portfolio-9"
@@ -577,8 +581,10 @@
               facere consectetur dolores iusto?
             </p>
           </article>
-          <section class="team-members flex justify-between item-center">
-            <article class="team-member flex-23">
+          <section
+            class="team-members flex justify-between item-center md-wrap"
+          >
+            <article class="team-member flex-23 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/team/team-1.jpg"
                 alt="team-1"
@@ -590,7 +596,7 @@
               </div>
             </article>
 
-            <article class="team-member flex-23">
+            <article class="team-member flex-23 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/team/team-2.jpg"
                 alt="team-2"
@@ -602,7 +608,7 @@
               </div>
             </article>
 
-            <article class="team-member flex-23">
+            <article class="team-member flex-23 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/team/team-3.jpg"
                 alt="team-3"
@@ -614,7 +620,7 @@
               </div>
             </article>
 
-            <article class="team-member flex-23">
+            <article class="team-member flex-23 md-flex-48 sm-flex-100">
               <img
                 src="assets/media/team/team-4.jpg"
                 alt="team-4"
@@ -640,8 +646,10 @@
               provident enim facere.
             </p>
           </article>
-          <section class="pricing-section flex justify-between item-center">
-            <div class="card flex-23">
+          <section
+            class="pricing-section flex justify-between item-center md-wrap"
+          >
+            <div class="card flex-23 md-flex-48 sm-flex-100">
               <div class="card-name">Free</div>
               <div class="card-info">
                 <p>
@@ -661,7 +669,7 @@
               </div>
             </div>
 
-            <div class="card flex-23">
+            <div class="card flex-23 md-flex-48 sm-flex-100">
               <div class="card-name card-name-active">Business</div>
               <div class="card-info">
                 <p>
@@ -681,7 +689,7 @@
               </div>
             </div>
 
-            <div class="card flex-23">
+            <div class="card flex-23 md-flex-48 sm-flex-100">
               <div class="card-name">Developer</div>
               <div class="card-info">
                 <p>
@@ -701,7 +709,7 @@
               </div>
             </div>
 
-            <div class="card flex-23">
+            <div class="card flex-23 md-flex-48 sm-flex-100">
               <div class="card-name">Ultimate</div>
               <div class="card-info">
                 <p>
@@ -817,8 +825,10 @@
             </p>
           </article>
 
-          <div class="contact-section flex justify-center item-center">
-            <div class="contact-card flex-20 flex justify-center item-start">
+          <div class="contact-section flex justify-center item-start md-wrap">
+            <div
+              class="contact-card flex-20 md-flex-100 md-justify-start flex justify-center item-start"
+            >
               <div>
                 <div class="contact-icon">
                   <i class="fa-solid fa-location-dot"></i>
@@ -830,7 +840,9 @@
               </div>
             </div>
 
-            <div class="contact-card flex-20 flex justify-center item-start">
+            <div
+              class="contact-card flex-20 md-flex-100 md-justify-start flex justify-center item-start self-stretch"
+            >
               <div>
                 <div class="contact-icon">
                   <i class="fa-solid fa-envelope"></i>
@@ -843,7 +855,9 @@
               </div>
             </div>
 
-            <div class="contact-card flex-20 flex justify-center item-start">
+            <div
+              class="contact-card flex-20 md-flex-100 md-justify-start flex justify-center item-start self-stretch"
+            >
               <div>
                 <div class="contact-icon">
                   <i class="fa-solid fa-phone-volume"></i>
@@ -858,18 +872,18 @@
           </div>
 
           <form>
-            <fieldset class="flex justify-between item-center">
+            <fieldset class="flex justify-between item-center sm-wrap">
               <input
                 type="text"
                 name="name"
                 placeholder="Your Name"
-                class="form-control flex-48"
+                class="form-control flex-48 sm-flex-100"
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Your Email"
-                class="form-control flex-48"
+                class="form-control flex-48 sm-flex-100"
               />
             </fieldset>
             <input
@@ -894,8 +908,8 @@
     </main>
     <footer>
       <div class="footer-hero padding">
-        <div class="container flex justify-between item-start">
-          <section class="flex-20 footer-intro">
+        <div class="container flex justify-between item-start md-wrap">
+          <section class="flex-20 md-flex-48 footer-intro">
             <div class="footer-logo">Flexor</div>
             <address>
               A108 Adam Street<br />New Your, NY 535022<br />
@@ -908,7 +922,7 @@
               <span class="hightlight">Email:</span> info@gmail.com
             </div>
           </section>
-          <section class="footer-links-section flex-20">
+          <section class="footer-links-section flex-20 md-flex-48 sm-flex-100">
             <h6 class="footer-section-heading">Useful Links</h6>
             <ul>
               <li>
@@ -946,7 +960,7 @@
               </li>
             </ul>
           </section>
-          <section class="footer-links-section flex-20">
+          <section class="footer-links-section flex-20 md-flex-48 sm-flex-100">
             <h6 class="footer-section-heading">Our Services</h6>
             <ul>
               <li>
@@ -984,7 +998,7 @@
               </li>
             </ul>
           </section>
-          <section class="footer-news-letter flex-30">
+          <section class="footer-news-letter flex-30 md-flex-48 sm-flex-100">
             <h6 class="footer-section-heading">Join Our Newsletter</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi!
@@ -997,8 +1011,8 @@
         </div>
       </div>
       <div class="footer-copyright-section">
-        <div class="container flex justify-between item-center">
-          <div class="copyright-text">
+        <div class="container flex justify-between item-center md-wrap">
+          <div class="copyright-text md-flex-100 md-text-center">
             <p>
               &copy; Copyright
               <span class="copyright-logo-hightlight">Flexor</span>. All rights
@@ -1009,7 +1023,7 @@
               <span class="copyright-main-hightlight">Bootstrap Made</span>
             </p>
           </div>
-          <ul class="flex justify-between item-center">
+          <ul class="flex justify-center item-center md-flex-100">
             <li class="footer-social-links">
               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             </li>
