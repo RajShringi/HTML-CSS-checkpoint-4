@@ -158,6 +158,7 @@ a {
 /* General */
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -178,7 +179,21 @@ body {
 .title p {
   color: var(--text-light);
 }
-
+.top {
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 888;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1.3rem 1rem;
+  border-radius: 6px;
+}
 /* Container */
 .container {
   max-width: 1380px;

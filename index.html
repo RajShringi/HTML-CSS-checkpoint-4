@@ -14,7 +14,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body id="top">
     <header class="header">
       <div class="container flex justify-between item-center">
         <a href="#" class="logo">Flexor</a>
@@ -24,12 +24,12 @@
         <input id="toggle" type="checkbox" />
         <nav class="nav">
           <ul class="nav-menu flex item-center md-column">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#pricing">Pricing</a></li>
             <li><a href="#">Blog</a></li>
             <li class="sub-menu-box">
               <a href="#">
@@ -57,14 +57,14 @@
                 <li><a href="#">Drop Down 5</a></li>
               </ul>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
       <!-- Hero -->
-      <section class="hero">
+      <section id="home" class="hero">
         <div class="hero-main padding">
           <div class="container">
             <article class="padding">
@@ -135,7 +135,7 @@
         </div>
       </section>
       <!-- About -->
-      <section class="about padding">
+      <section id="about" class="about padding">
         <div class="container">
           <div class="about-container flex item-center justify-between md-wrap">
             <div class="flex-48 md-flex-100 about-img">
@@ -272,7 +272,7 @@
         </div>
       </section>
       <!-- Services -->
-      <section class="services padding">
+      <section id="services" class="services padding">
         <div class="container">
           <article class="services-article">
             <h3>Services</h3>
@@ -475,7 +475,7 @@
         </div>
       </section>
       <!-- Portfolio -->
-      <section class="portfolio padding">
+      <section id="portfolio" class="portfolio padding">
         <div class="container">
           <article class="portfolio-article">
             <h3>Portfolio</h3>
@@ -570,7 +570,7 @@
         </div>
       </section>
       <!-- Team -->
-      <section class="team padding">
+      <section id="team" class="team padding">
         <div class="container">
           <article class="team-article">
             <h3>Team</h3>
@@ -635,7 +635,7 @@
         </div>
       </section>
       <!-- Pricing -->
-      <section class="pricing padding">
+      <section id="pricing" class="pricing padding">
         <div class="container">
           <article class="pricing-article">
             <h3>Pricing</h3>
@@ -813,7 +813,7 @@
         </div>
       </section>
       <!-- Contact -->
-      <section class="contact padding">
+      <section id="contact" class="contact padding">
         <div class="container">
           <article class="contact-article title">
             <h3>Contact</h3>
@@ -1047,5 +1047,6 @@
         </div>
       </div>
     </footer>
+    <a href="#top" class="top"><i class="fa-solid fa-angle-up"></i></a>
   </body>
 </html>
