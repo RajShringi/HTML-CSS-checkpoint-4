@@ -166,6 +166,18 @@ body {
 .text-center {
   text-align: center;
 }
+/* Custom Styles */
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.title h3 {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+.title p {
+  color: var(--text-light);
+}
 
 /* Container */
 .container {
@@ -245,6 +257,10 @@ h4 {
 }
 h5 {
   font-size: 1.2rem;
+  font-weight: 600;
+}
+h6 {
+  font-size: 1.1rem;
   font-weight: 600;
 }
 /* Header */
@@ -426,6 +442,7 @@ h5 {
   width: 4rem;
   height: 4rem;
   color: var(--text-dark);
+  font-size: 1.5rem;
 }
 
 .about-info h5 {
@@ -752,4 +769,28 @@ h5 {
 }
 .card-button-container {
   padding: 1rem 0;
+}
+
+/* FAQ */
+.faq {
+  background: var(--bg-color);
+}
+.faq-question {
+  background: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.faqs {
+  padding: 0 5rem;
+}
+.faq-question p {
+  color: var(--text-light);
+}
+.question-title {
+  color: var(--text-dark);
+}
+.question-title-active {
+  color: var(--primary);
 }
