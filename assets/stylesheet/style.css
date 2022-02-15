@@ -182,16 +182,16 @@ body {
 .top {
   background: var(--primary);
   color: #fff;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  will-change: 2rem;
+  width: 2rem;
   height: 2rem;
   position: fixed;
   z-index: 888;
   bottom: 2rem;
   right: 2rem;
-  padding: 1.3rem 1rem;
+  padding: 1.3rem 1.3rem;
   border-radius: 6px;
 }
 /* Container */
