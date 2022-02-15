@@ -554,3 +554,53 @@ h5 {
   color: var(--text-dark);
   font-size: 0.8rem;
 }
+
+/* Testimonial */
+.testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../media/background-img/testimonials-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.testimonial-article {
+  text-align: center;
+  color: #fff;
+}
+.testimonial-article img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.testimonial-article h5 {
+  margin-top: 1rem;
+}
+.testimonial-text {
+  margin: 1rem 0;
+  padding: 0 5rem;
+}
+.testimonial-article .profession {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.testimonial-circle-container {
+  text-align: center;
+}
+.testimonial-circle-container .circle {
+  background: rgba(255, 255, 255, 0.8);
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.testimonial-circle-container .circle-active {
+  background: var(--primary);
+}
+.testimonial-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quote-left,
+.quote-right {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
